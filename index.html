@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Apple Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Css файл-->
+    <script src="script.js" defer></script>
+    <!-- JavaScript файл -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar-logo"></div>
+            <!-- Додали картинку меню для телефона -->
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <img src="src/menu.png" alt="Menu">
+            </div>
+            <ul id="nav-list">
+                <!-- Список навігації -->
+                <li class="logo-apple"><img src="src/apple.png" alt="Apple"></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Vision</a></li>
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">TV&Home</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Support</a></li>
+                <li><img src="src/search-interface-symbol.png" alt="Search"></li>
+                <!-- Додали картинку пошуку -->
+                <li><img src="src/Photoroom.png-Photoroom.png" alt="Cart"></li>
+                <!-- Додали картинку корзини -->
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="matherday">
+            <div class="matherday-content">
+                <h1>Mother's Day</h1>
+                <p>It's not too late to surprise Mom</p>
+                <a href="#shop" class="botton">Shop</a>
+            </div>
+        </section>
+
+
+
+        <section class="products">
+            <div class="productone">
+
+                <h3>Two sizen.Faster chip.Does it all.</h2>
+                    <p>Available starting 5.15.</p>
+                    <div class="LearnOrder"></div>
+                    <a class="Learn " href="#">Learn more</a>
+                    <a class="Order" href="#">Order now</a>
+            </div>
+        </section>
+        <div class="producttwo">
+            <div class="LearntwoOrdertwo">
+                <a class="Learntwo " href="#">Learn more</a>
+                <a class="Ordertwo" href="#">Order now</a>
+            </div>
+        </div>
+
+        <div class="productthree">
+            <div class="LearnthreeBuythree">
+                <a class="Learntthee " href="#">Learn more</a>
+                <a class="Buythree" href="#">Buy</a>
+            </div>
+            <div class="Learntthee1Buythree1">
+                <a class="Learntthee1 " href="#">Learn more</a>
+                <a class="Buythree1" href="#">Buy</a>
+            </div>
+        </div>
+
+        <div class="productfor">
+            <div class="LearnforBuyfor">
+                <a class="Learnfor" href="#">Learn more</a>
+                <a class="Buyfor " href="#">Buy</a>
+            </div>
+            <div class="Learnfor2Buyfor2">
+                <a class="Learnfor2 " href="#">Learn more</a>
+                <a class="Buyfor2" href="#">Buy</a>
+            </div>
+        </div>
+        <div class="slider-container">
+            <div class="slider">
+                <a href="https://tv.apple.com/us/show/hollywood-con-queen/umc.cmc.117umbbiymiqrowvu6xsqzju4" class="slide"><img src="src/p(76).png" alt="Slide 1"></a>
+                <a href="https://tv.apple.com/us/movie/apple-music-live-kacey-musgraves/umc.cmc.5ax1w96igrexuddisnd08mrgs" class="slide"><img src="src/Снимок экрана (77).png" alt="Slide 2"></a>
+                <a href="https://tv.apple.com/us/channel/tvs.sbd.7000" class="slide"><img src="src/Снимок экрана (78).png" alt="Slide 3"></a>
+                <a href="https://tv.apple.com/us/show/loot/umc.cmc.5erbujil1mpazuerhr1udnk45" class="slide"><img src="src/Снимок экрана (79).png" alt="Slide 4"></a>
+                <a href="https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy" class="slide"><img src="src/Снимок экрана (80).png" alt="Slide 5"></a>
+                <a href="https://tv.apple.com/us/room/edt.item.62327df1-6874-470e-98b2-a5bbeac509a2" class="slide"><img src="src/Снимок экрана (81).png" alt="Slide 6"></a>
+                <a href="https://tv.apple.com/us/show/acapulco/umc.cmc.8xrkg9zywke7g6a9ahmvpr3l" class="slide"><img src="src/Снимок экрана (82).png" alt="Slide 7"></a>
+                <a href="https://tv.apple.com/us/show/dark-matter/umc.cmc.4luj45vtqpmjsvb6sc2675oeg" class="slide"><img src="src/Снимок экрана (83).png" alt="Slide 8"></a>
+                <a href="https://tv.apple.com/us/show/palm-royale/umc.cmc.6vwg3ce7ovsexa3a6r7f6qk49" class="slide"><img src="src/Снимок экрана (84).png" alt="Slide 9"></a>
+                <a href="https://tv.apple.com/us/show/sugar/umc.cmc.4r6q7tdquewehwvb3rzl0k3dt" class="slide"><img src="src/Снимок экрана (85).png" alt="Slide 10"></a>
+                <a href="" class="slide"><img src="src/snapedit_1715630881830.jpeg" alt="Slide 11"></a>
+
+            </div>
+
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+
+
+
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-information">
+            <ul>
+                <li>1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old<br>to be eligible to trade in for credit or for an
+                    Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value<br>awarded is based on receipt of a qualifying device matching the description provided when estimate
+                    was made. Sales tax may be assessed on full value of a new device<br> purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores,
+                    and may vary between<br> in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction<br> for any reason. More
+                    details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.</li>
+
+                <li>To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the<br>latest version of iOS or iPadOS. Apple Card is subject to credit
+                    approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA,<br> Salt Lake City Branch.</li>
+                <li>If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.</li>
+
+                <li>Learn more about how Apple Card applications are evaluated at <a href="https://support.apple.com/kb/HT209218">support.apple.com/kb/HT209218</a>.</li>
+
+                <li>A subscription is required for Apple TV+.</li>
+
+                <li>A subscription is required for Apple Arcade, Apple Fitness+, and Apple Music.</li>
+            </ul>
+        </div>
+        <div class="footer-navigation">
+            <div class="footer-column">
+                <ul>
+                    <li class="footer-navigation-title">Shop and Learn</li>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#">AirPods</a></li>
+                    <li><a href="#">TV & Home</a></li>
+                    <li><a href="#">AirTag</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li class="retreat"></li>
+                    <li class="footer-navigation-title">Apple Wallet</li>
+                    <li><a href="#">Wallet</a></li>
+                    <li><a href="#">Apple Card</a></li>
+                    <li><a href="#">Apple Pay</a></li>
+                    <li><a href="#">Apple Cash</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <ul>
+                    <li class="footer-navigation-title">Account</li>
+                    <li><a href="#">Manage Your Apple ID</a></li>
+                    <li><a href="#">Apple Store Account</a></li>
+                    <li><a href="#">iCloud.com</a></li>
+                    <li class="retreat"></li>
+                    <li class="footer-navigation-title">Entertainment</li>
+                    <li><a href="#">Apple One</a></li>
+                    <li><a href="#">Apple TV+</a></li>
+                    <li><a href="#">Apple Music</a></li>
+                    <li><a href="#">Apple Arcade</a></li>
+                    <li><a href="#">Apple Fitness+</a></li>
+                    <li><a href="#">Apple News+</a></li>
+                    <li><a href="#">Apple Podcasts</a></li>
+                    <li><a href="#">Apple Books</a></li>
+                    <li><a href="#">App Store</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul>
+                    <li class="footer-navigation-title">Apple Store</li>
+                    <li><a href="#">Find a Store</a></li>
+                    <li><a href="#">Genius Bar</a></li>
+                    <li><a href="#">Today at Apple</a></li>
+                    <li><a href="#">Group Reservations</a></li>
+                    <li><a href="#">Apple Camp</a></li>
+                    <li><a href="#">Apple Store App</a></li>
+                    <li><a href="#">Certified Refurbished</a></li>
+                    <li><a href="#">Apple Trade In</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Carrier Deals at Apple</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Shopping Help</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-column">
+                <ul>
+                    <li class="footer-navigation-title">For Business</li>
+                    <li><a href="#">Apple and Business</a></li>
+                    <li><a href="#">Shop for Business</a></li>
+                    <li class="retreat"></li>
+                    <li class="footer-navigation-title">For Education</li>
+                    <li><a href="#">Apple and Education</a></li>
+                    <li><a href="#">Shop for K-12</a></li>
+                    <li><a href="#">Shop for College</a></li>
+                    <li class="retreat"></li>
+                    <li class="footer-navigation-title">For Healthcare</li>
+                    <li><a href="#">Apple in Healthcare</a></li>
+                    <li><a href="#">Health on Apple Watch</a></li>
+                    <li><a href="#">Health Records on iPhone</a></li>
+                    <li class="retreat"></li>
+                    <li class="footer-navigation-title">For Government</li>
+                    <li><a href="#">Shop for Government</a></li>
+                    <li><a href="#">Shop for Veterans and Military</a></li>
+                </ul>
+
+            </div>
+
+
+
+            <div class="footer-column">
+                <ul>
+                    <li class="footer-navigation-title">Apple Values</li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Environment</a></li>
+                    <li><a href="#">Inclusion and Diversity</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Racial Equity and Justice</a></li>
+                    <li><a href="#"> Supply Chain</a></li>
+                    <li class="retreat"></li>
+                    <li class="footer-navigation-title">About Apple</li>
+                    <li><a href="#">Newsroom</a></li>
+                    <li><a href="#"> Apple Leadership</a></li>
+                    <li><a href="#">Career Opportunities</a></li>
+                    <li><a href="#"> Investors</a></li>
+                    <li><a href="#">Ethics & Compliance</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Contact Apple</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="apple-footer">
+            <div class="apple-footer-content">
+                <p class="footer-textone">
+                    More ways to shop: <a style="color: blue; text-decoration: underline;" href="#" class="footer-link">Find an Apple Store</a> or <a style="color: blue;text-decoration: underline;" href="#" class="footer-link">other retailer</a> near
+                    you. Or call 1-800-MY-APPLE.
+                </p>
+                <img src="">
+                <p class="footer-text">Copyright &copy;2024 Apple Inc. All rights reserved. <a href="#" class="footer-link">Privacy Policy</a> <a href="#" class="footer-link">| Terms of Use</a><a href="#" class="footer-link">| Sales and Refunds</a><a href="#" class="footer-link">| Legal</a>
+                    <a href="#" class="footer-link">|Site Map</a>
+                </p>
+                <p><a class="United" href="#">United States</a></p>
+            </div>
+            <div class="apple-footer-content-two">
+                <a href="https://twitter.com/?lang=ru"> <img src="src/5969020.png"> </a>
+
+                <a href="https://www.linkedin.com/"><img src="src/in.png"></a>
+
+                <a href="https://www.youtube.com/@Apple"><img src="src/yotob.png"> </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
